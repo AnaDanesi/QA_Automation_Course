@@ -8,6 +8,5 @@ public class SystemOutPrint {
         static PrintStream out;
     }
 
-    se transforma en System.out.println() o System.out.print()
+    se transforma en System.out.println() o System.out.print()*/
 }
-*/

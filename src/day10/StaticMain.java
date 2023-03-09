@@ -13,7 +13,7 @@ public class StaticMain {
 
         //2) static methods can access non static stuff method through object only
 
-        StaticExample se=new StaticExample();
+        StaticExample se = new StaticExample();
         System.out.println(se.b);
         se.m2();
 
@@ -22,3 +22,4 @@ public class StaticMain {
 
 
     }
+}
