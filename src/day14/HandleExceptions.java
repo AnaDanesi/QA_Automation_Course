@@ -40,6 +40,9 @@ public class HandleExceptions {
             System.out.println(100 / num); //ArithmeticException
         }
         catch(ArithmeticException e){ //any name, for ex e
+            e.printStackTrace();//if you want to know the details.
+            //o
+            System.out.println(e.getMessage()); //another way to know details.
             System.out.println("You have entered invalid input.");
         }
 
